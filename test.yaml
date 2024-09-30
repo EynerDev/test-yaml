@@ -1,9 +1,6 @@
 name: hola mundo
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   hola:
