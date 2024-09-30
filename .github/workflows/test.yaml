@@ -1,4 +1,4 @@
-name: hola mundo
+name: Hola mundo
 
 on: [push]
 
@@ -8,5 +8,5 @@ jobs:
 
 
   steps:
-    - name: hola
-    - hola: echo "hola guapo"
+    - name: hola mundo
+    - hello: echo "hola guapo"
