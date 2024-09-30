@@ -1,0 +1,15 @@
+name: hola mundo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+
+
+  steps:
+    - name: hola
+    - hola: echo "hola cachon"
